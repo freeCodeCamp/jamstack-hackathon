@@ -163,6 +163,14 @@ table {
 td, th {
   padding: 0;
 }
+p {
+  font-size: 20px !important;
+  margin-top: 10px !important;
+}
+a, a:visited {
+  text-decoration: underline !important;
+}
+
 @media print {
   *, *:before, *:after {
     background: transparent!important;
@@ -10778,8 +10786,8 @@ h1, h2, h3, h4, h5, h6, p, li {
   display: none;
 }
 .nav-logo {
-  height: 40px;
-  margin-top: -10px;
+  height: 30px;
+  margin-top: -5px;
 }
 @media (max-width: 397px) {
   .nav-logo {
