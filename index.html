@@ -162,7 +162,10 @@
         <p>Check your email inbox so you can verify your GitHub account.</p>
         <h3>Step #10: Add your SSH keys to GitHub. </h3>
         <p class="negative-15">SSH keys are a way you can securely access your GitHub account from your terminal without the need for authenticating using a username and password.</p>
-        <p class="negative-15">Run this command in your terminal to copy your computer's public SSH key to your clipboard:</p>
+        <p class="negative-15">Run this command in your terminal to generate SSH keys:</p>        
+        <p class="negative-15"><code>ssh-keygen</code></p>
+        <p class="negative-15">The terminal will prompt you to choose a file location. Just press enter to accept the default file location. If the terminal tells you that you have already generated an SSH key in the past, press "n" so you don't overwrite your existing key.</p>
+        <p class="negative-15">Then run this command in your terminal to copy your computer's public SSH key to your clipboard:</p>
         <p class="negative-15"><code>pbcopy < ~/.ssh/id_rsa.pub</code></p>
         <p class="negative-15">Then click here to go to the SSH key settings page in GitHub and paste it in.</p>
         <img class="img-responsive" src="https://s3.amazonaws.com/freecodecamp/hackathon-article-image-4.jpg">
